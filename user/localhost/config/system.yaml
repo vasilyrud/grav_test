@@ -1,0 +1,9 @@
+debugger:
+  enabled: true
+
+errors:
+  display: true
+  
+cache:
+  enabled: false 
+
