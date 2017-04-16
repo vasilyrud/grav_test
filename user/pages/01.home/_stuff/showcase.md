@@ -10,5 +10,5 @@ buttons:
       primary: false
 ---
 
-# The hive
+# The hive is alive
 
