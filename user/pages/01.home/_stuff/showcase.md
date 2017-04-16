@@ -10,5 +10,5 @@ buttons:
       primary: false
 ---
 
-# WTF dude
+# This should work
 
