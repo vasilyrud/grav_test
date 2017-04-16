@@ -73,3 +73,13 @@ RewriteRule ^(LICENSE.txt|composer.lock|composer.json|\.htaccess)$ error [F]
 Options -Indexes
 DirectoryIndex index.php index.html index.htm
 # End - Prevent Browsing and Set Default Resources
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /grav_test/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /grav_test/index.php [L]
+</IfModule>
