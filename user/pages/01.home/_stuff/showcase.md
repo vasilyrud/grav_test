@@ -10,5 +10,5 @@ buttons:
       primary: false
 ---
 
-# Ooooh weeeeeee!
+# W00t!
 
