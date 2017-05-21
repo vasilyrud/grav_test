@@ -10,5 +10,5 @@ buttons:
       primary: false
 ---
 
-# W00t!
+# yay!
 
